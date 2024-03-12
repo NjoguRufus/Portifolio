@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2;
+    padding: 2;
+    background-image: url('img/RSG.jpg'); /Documents/Portfolio/img
+
+
+    background-size: cover; 
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+.first{
+    display: flex;
+}
+.content {
+    
+}
+
+header, nav, section, footer {
+    margin: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline ;
+    margin-right: 50px;
+}.
+nav ul li {    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #4d0404; 
+
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #131314;
+    color: #fcfafa;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
